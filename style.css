@@ -1,0 +1,12 @@
+.square{
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  margin: 0.1em;
+  background-color: white;
+}
+
+.gridLine{
+  display: block;
+  background-color: teal;
+}
