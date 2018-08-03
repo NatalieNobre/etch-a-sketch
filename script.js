@@ -21,6 +21,6 @@ const squares = document.querySelectorAll('square');
 
 squares.forEach((square) => {
   square.addEventListener('mouseover', (e) => {
-    square.style.backgroundcolor = "black";
+    e.target.style.background = 'black';
   });
 });
