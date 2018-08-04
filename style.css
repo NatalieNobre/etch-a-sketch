@@ -1,18 +1,27 @@
 .square{
   display: inline-block;
+  /*
   width: 2em;
   height: 2em;
+  */
   background-color: white;
 }
 
 .gridLine{
   display: block;
-  height: 2em;
-  text-align: center;
+  /*height: 2em;*/
 }
 
 #container{
-  padding-top: 5em;
-  padding-bottom: 10em;
-  background-color: teal;
+  margin: 2em;
+}
+
+#btn{
+  margin-top: 2em;
+  padding:0.7em;
+}
+
+body{
+  background-color: #a9ced4;
+  text-align: center;
 }
